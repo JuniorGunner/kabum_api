@@ -1,9 +1,10 @@
 from flask import Flask
+from blueprints.quote import quote_blueprint
 
 
 def create_app():
     app = Flask(__name__)
-    app.register_blueprint(None, url_prefix='/api') # TODO: update with blueprint
+    app.register_blueprint(quote_blueprint, url_prefix='/api') # TODO: update with blueprint
     return app
 
 

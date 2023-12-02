@@ -15,6 +15,8 @@ class FreightService:
                     "valor_frete": round(freight_cost, 2),
                     "prazo_dias": option["delivery_days"]
                 })
+        
+        return response
     
     def _validate_dimensions(self, dimension, option):
         return option["min_height"] <= dimension["altura"] <= option["max_height"] and \
