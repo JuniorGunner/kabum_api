@@ -1,4 +1,4 @@
-# kabum_test
+# kabum_api
 ## Descrição do Projeto 📘
 Este projeto consiste em uma API REST desenvolvida para a KaBuM!, um dos maiores e-commerces de tecnologia da América Latina. A API fornece cotações de fretes com base nas dimensões e peso dos produtos, consultando diferentes opções de transportadoras.
 
